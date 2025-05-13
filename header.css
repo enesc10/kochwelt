@@ -1,0 +1,138 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 10px 11px rgb(217, 220, 221);
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 80px;
+  gap: 28px;
+}
+.nav-link a {
+  color: black;
+  text-decoration: none;
+  font-family: "Raleway", serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-link a:hover {
+  color: green;
+  text-decoration: underline green 4px;
+  text-underline-offset: 8px;
+}
+
+.resp_menu_box {
+  display: flex;
+  flex-direction: column;
+  top: 88px;
+
+  right: 0;
+  background-color: green;
+  width: 280px;
+  height: 200px;
+  position: absolute;
+  transition: all 550ms ease-in-out;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: solid 2px rgba(211, 211, 211);
+}
+
+.resp_menu_box a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: "Raleway", serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px;
+}
+.resp_menu_box a:hover {
+  text-decoration: underline;
+}
+
+.resp_menu_closed {
+  transform: translatey(-200%);
+  overflow-x: hidden;
+}
+
+.image2 {
+  width: 40px;
+  display: none;
+}
+
+@media (max-width: 1020px) {
+  .nav-link a {
+    display: none;
+  }
+  .image1 {
+    display: none;
+  }
+
+  .image2 {
+    display: block;
+    position: absolute;
+    left: 70px;
+    top: 15px;
+  }
+}
+
+@media (min-width: 1020px) and (max-width: 2560px) {
+  #resp_menu_box {
+    display: none;
+  }
+  #open_menu {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    display: flex;
+  }
+  .section-spotlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+  }
+  .section-spotlight img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .recipe-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .new-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+  }
+  .recipe {
+    padding-bottom: 30px;
+  }
+
+  #abstand {
+    padding: 24px;
+  }
+}

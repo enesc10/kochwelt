@@ -1,0 +1,39 @@
+button {
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 10px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+#submitButton {
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 8px 18px;
+  border: none;
+}
+
+#submitButton:hover {
+  background-color: green;
+  cursor: pointer;
+}

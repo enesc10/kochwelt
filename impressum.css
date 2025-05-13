@@ -1,0 +1,14 @@
+.body {
+}
+#impressum {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  padding-bottom: 77px;
+  flex: 1;
+}
+.quelle {
+  padding-left: 70px;
+}

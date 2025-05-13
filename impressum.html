@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kochwelt</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pinyon+Script&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sixtyfour+Convergence&family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="button.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="impressum.css" />
+    <link rel="icon" type="image/png" href="img/logo_small.png" />
+  </head>
+  <body class="body">
+    <section id="sections">
+      <header class="header">
+        <a href="index.html">
+          <img onclick="" src="./img/logo.png" alt="" class="image1"
+        /></a>
+        <a href="index.html">
+          <img onclick="" src="img/logo_small.png" alt="" class="image2"
+        /></a>
+
+        <div class="nav-link">
+          <a href="index.html">Start</a>
+          <a href="Salat.html">Rezept des Tages</a>
+          <a href="kontakt.html">Kontakt</a>
+          <a href="impressum.html">Impressum</a>
+        </div>
+        <header>
+          <button onclick="toggleRespMenu()" id="open_menu">open menu</button>
+        </header>
+        <div id="resp_menu" class="resp_menu_box resp_menu_closed">
+          <a href="index.html">Start</a>
+          <a href="Salat.html">Rezept des Tages</a>
+          <a href="kontakt.html">Kontakt</a>
+          <a href="impressum.html">Impressum</a>
+        </div>
+        <script src="resp_menu.js"></script>
+      </header>
+
+      <div id="impressum">
+        <h1>Impressum</h1>
+
+        <p>
+          Enes Cirit<br />
+          Egestorff str. 4 <br />
+          30449 Hannover<br />
+          Deutschland
+        </p>
+
+        <h2>Kontakt</h2>
+        <p>
+          Telefon: +49 (0) 176/61944061<br />
+          Telefax: +49 (0) 123 45 67 89<br />
+          E-Mail: Enes.cirit@hotmail.de
+        </p>
+
+        <p class="quelle">
+          Quelle:
+          <a href="https://www.e-recht24.de/impressum-generator.html"
+            >https://www.e-recht24.de/impressum-generator.html</a
+          >
+        </p>
+      </div>
+      <div class="Datenschutzerklärung">
+        <a
+          href="./img/adsimple-datenschutztext-de-112915247-03-12-2024.pdf"
+          target="_blank"
+          class="button"
+          >Datenschutzerklärung</a
+        >
+      </div>
+
+      <div class="footer">
+        <div>
+          <a href="index.html">
+            <img onclick="" class="footer-logo" src="./img/logo.png" alt=""
+          /></a>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/?_rdr" target="_blank"
+            ><img class="footer-social" src="./img/facebook_white.png" alt=""
+          /></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><img class="footer-social" src="./img/instagram_white.png" alt=""
+          /></a>
+          <a href="https://x.com/?lang=en" target="_blank"
+            ><img class="footer-social" src="./img/twitter_white.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

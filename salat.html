@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kochwelt</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pinyon+Script&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sixtyfour+Convergence&family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="table.css" />
+    <link rel="stylesheet" href="button.css" />
+    <link rel="stylesheet" href="footer.css"/>
+    <link rel="icon" type="image/png" href="img/logo_small.png"/>
+  </head>
+  <body>
+    <section id="sections">
+      <header class="header">
+        <a href="index.html">
+          <img onclick="" src="./img/logo.png" alt="" class="image1"
+        /></a>
+        <a href="index.html">
+          <img onclick="" src="img/logo_small.png" alt="" class="image2"
+        /></a>
+
+        <div class="nav-link">
+          <a href="index.html">Start</a>
+          <a href="Salat.html">Rezept des Tages</a>
+          <a href="kontakt.html">Kontakt</a>
+          <a href="impressum.html">Impressum</a>
+        </div>
+        <header>
+          <button onclick="toggleRespMenu()" id="open_menu">open menu</button>
+        </header>
+        <div id="resp_menu" class="resp_menu_box resp_menu_closed">
+          <a href="index.html">Start</a>
+          <a href="Salat.html">Rezept des Tages</a>
+          <a href="kontakt.html">Kontakt</a>
+          <a href="impressum.html">Impressum</a>
+        </div>
+        <script src="resp_menu.js"></script>
+      </header>
+        <script src="resp_menu.js"></script>
+      </header>
+      </header>
+
+      <div class="section-spotlight-uros">
+
+          <h1 id="abstand">Salat Nicoise</h1>
+    <p id="abstand">
+      Der Salat Nicoise ist ein köstlicher Snack an einem heißen Sommertag.<br> Hier unser Rezept aus Nizza.
+    </p>
+
+
+
+        <div class="icons-wrapper">
+          <img id="foto-img" src="./img/uros-salat.png" alt="" />
+          
+          <div class="icon-all">
+            <div class="icons"><img src="img/brain-solid.svg" alt="">Simple</div>
+            <div class="icons"><img src="img/clock-regular.svg" alt="">10 Minuten</div>
+            <div class="icons"><img src="img/calendar-alt-regular.svg" alt="">10.05.2025</div>
+          </div>
+        </div>
+
+        
+        
+        
+      </div>
+      <div class="background-line"></div>
+      <div class="calculator">
+        <label for="Portion">Portion:  
+          <input type="number" name="Portion" id="Portion" value="1" min="1" max="50" required /></label>
+          <button id="submitButton">Berechnen</button>
+      </div>
+
+      <table id="recipe">
+      <tr>
+        <td>Salat</td>
+        <td id="saladAmount">100 g</td>
+      </tr>
+      <tr>
+        <td>Tuna</td>
+        <td id="tunaAmount">50 g</td>
+      </tr>
+      <tr>
+        <td>Ei</td>
+        <td id="eiAmount">100 g</td>
+      </tr>
+      <tr>
+        <td>Salz & Pfeffer</td>
+        <td id="saltpepperAmount">100 g</td>
+      </tr>
+      <tr>
+        <td>Oliven Öl</td>
+        <td id="olivenoilAmount">100 ml</td>
+      </tr>
+      <tr>
+        <td>Fisolen</td>
+        <td id="fisolenAmount">100 g</td>
+      </tr>
+      <tr>
+        <td>Zirtonensaft</td>
+        <td id="zsaftAmount">100 g</td>
+      </tr>
+      <tr>
+        <td>Kartoffel</td>
+        <td id="kartoffelAmount">100 g</td>
+      </tr>
+      <tr>
+        <td>Senf</td>
+        <td id="senfAmount">100 g</td>
+      </tr>
+      <tr>
+        <td>Essig</td>
+        <td id="essigAmount">100 g</td>
+      </tr>
+    </table>
+    <script src="./script.js"></script>
+
+    <div class="zubereitung">
+      <h2 id="abstand">Zubereitung</h2>
+      <div class="icon-all-description">
+        <div class="icons"><img src="img/clock-regular.svg" alt="">Vorbereitung 10</div>
+        <div class="icons"><img src="img/clock-regular.svg" alt="">15 Minuten</div>
+      </div>
+      
+      <div>
+        <h3 id="abstand">Zubereitung:</h3>
+        <ol>
+            <li><strong>Kartoffeln kochen</strong>, <strong>Fisolen blanchieren</strong> und <strong>Eier kochen</strong>.</li>
+            <li><strong>Dressing</strong> aus Olivenöl, Essig, Senf, Salz, und Pfeffer mischen.</li>
+            <li><strong>Salat anrichten</strong>: Kartoffeln, Bohnen, und Thunfisch auf einem Teller verteilen.</li>
+            <li><strong>Eier</strong> vierteln und dazugeben.</li>
+            <li>Mit <strong>Dressing</strong> anrichten, nach Belieben mit <strong>Kapern</strong> und <strong>Petersilie</strong> garnieren.</li>
+        </ol>
+    
+        <p id="abstand">Fertig zum Genießen!</p>
+      </div>
+    </div>
+
+    <div class="erstellt">
+      <h4>Rezept erstellt von:</h4>
+      <img src=>Enes Cirit</img>
+
+    </div>
+
+    
+    <div class="footer">
+      <div>
+        <a href="index.html">
+          <img onclick="" class="footer-logo" src="./img/logo.png" alt=""
+        /></a>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/?_rdr" target="_blank"
+          ><img class="footer-social" src="./img/facebook_white.png" alt=""
+        /></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img class="footer-social" src="./img/instagram_white.png" alt=""
+        /></a>
+        <a href="https://x.com/?lang=en" target="_blank"
+          ><img class="footer-social" src="./img/twitter_white.png" alt=""
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
